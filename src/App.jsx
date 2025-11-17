@@ -1,13 +1,9 @@
-
+import HelpPage from "./pages/HelpPage";
 
 function App() {
-
-
-  return (
-    <>
-    
-    </>
-  )
+  return <>
+    <HelpPage/>
+  </>;
 }
 
-export default App
+export default App;
