@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function HelpPage() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-gray-300">
-      {/* <Header /> */}
+      <Header />
       <SearchBar />
       <HelpTopics />
       <Footer />
