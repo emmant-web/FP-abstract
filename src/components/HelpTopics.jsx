@@ -5,8 +5,6 @@ import manageBilling from "../assets/images/manage-billing.png";
 import authenticateToAbstract from "../assets/images/authenticate-to-abstract.png";
 import abstractSupport from "../assets/images/abstract-support.png";
 
-import moveRightArrow from "../assets/images/move-right-arrow.svg";
-
 import { MoveRight } from "lucide-react";
 
 function HelpTopics() {
@@ -77,7 +75,7 @@ function HelpTopics() {
   }
 
   return (
-    <div className="mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-8 ">
+    <div className="py-10 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-8 ">
       {helpData.map((data, index) => (
         <Topic
           key={index}
