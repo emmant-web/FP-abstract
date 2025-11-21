@@ -13,7 +13,7 @@ It was built purely for **practice and educational purposes**, focusing on **her
 
 ## 🚀 Live Link
 
-🔗 **[View the project here](#)**
+🔗 **[View the project here](https://fp-abstract.netlify.app/)**
 
 ---
 
