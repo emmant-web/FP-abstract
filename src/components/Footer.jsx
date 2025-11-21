@@ -5,7 +5,7 @@ function Footer() {
 
     <div className="bg-black text-white">
 
-<div className="mx-auto p-10 px-15">
+<div className="mx-auto p-10 px-15 md:px-6">
 <div className="grid grid-cols-2 grid-rows-3 gap-2 justify-center md:grid-cols-5 md:grid-rows-1">
 
   {/* first column */}
