@@ -7,11 +7,11 @@ function Header() {
   const [showSearch, setShowSearch] = useState(false);
 
   return (
-    <header className="bg-black flex justify-between py-4 px-2 relative">
+    <header className="bg-black flex justify-between py-4 md:py-6 px-4 lg:px-20 relative">
       {/* logo and help center */}
-      <div className="flex gap-2">
-        <img src={abstractLogo} className="w-20 h-auto" />
-        <a href="#" className="text-white">
+      <div className="flex gap-1">
+        <img src={abstractLogo} className="w-20 h-auto md:w-29" />
+        <a href="#" className="text-white md:text-xl lg:flex lg:justify-center lg:items-center">
           <span>| Help Center</span>
         </a>
       </div>
