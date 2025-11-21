@@ -2,9 +2,9 @@ import { MoveRight } from "lucide-react";
 
 
 function SearchBar() {
-  return <div className="bg-[#dadbf1] flex flex-col justify-center items-center py-10 md:py-15">
-    <h1 className="font-medium text-3xl mb-4">How can we help?</h1>
-        <div className="bg-white rounded flex w-xs md:">
+  return <div className="hidden lg:flex lg:flex-col bg-[#dadbf1] justify-center items-center lg:py-16">
+    <h1 className="font-medium text-5xl mb-6">How can we help?</h1>
+        <div className="bg-white rounded flex w-lg">
         <input
           type="text"
           placeholder="Search..."
