@@ -57,14 +57,14 @@ function HelpTopics() {
     return (
       <div className="flex mb-[20px]">
         <div className="mr-[20px]">
-          <img src={image} className="w-[64px]" />
+          <img src={image} className="w-[64px] lg" />
         </div>
         <div className="">
-          <div className="w-3xs lg:w-md">
-            <h1 className="font-bold text-2xl mb-[20px]">{title}</h1>
-            <p className="text-2xl mb-[20px]">{description}</p>
+          <div className="w-3xs lg:w-xs">
+            <h1 className="font-bold text-2xl lg:text-lg mb-[20px]">{title}</h1>
+            <p className="text-2xl lg:text-lg mb-[20px]">{description}</p>
           </div>
-          <a href="#" className="inline-block text-[#4C5FD5] text-xl mb-[20px]">
+          <a href="#" className="inline-block text-[#4C5FD5] text-xl lg:text-sm mb-[20px]">
             <span className="flex gap-2 border-b-2 border-transparent hover:border-[#4C5FD5]">
               {button} <MoveRight />
             </span>
